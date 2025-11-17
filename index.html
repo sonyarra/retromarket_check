@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro.market</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="./index.html">Ретро.<span class="market">маркет</span></a>
+            </div>
+            <button class="burger-menu" id="burgerMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-container">
+                <nav>
+                    <ul>
+                        <li><a href="./payd.html">оплата и доставка</a></li>
+                        <li><a href="./contacts.html">контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="search-user">
+                    <input type="text" placeholder="Поиск...">
+                    <a href="#" class="user-icon"></a>
+                    <a href="#" class="cart-icon"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-image">
+        </section>
+
+        <div class="main-content">
+            <section class="categories">
+                <p class="main_text">Категории товаров</p>
+                <div class="categories-grid">
+                    <div class="category-item">
+                        <img src="./photo/cloth.png" alt="Одежда и обувь">
+                        <div class="category-overlay">
+                            <p class="categories_text">одежда<br>и обувь</p>
+                        </div>
+                    </div>
+                    <div class="category-item">
+                        <img src="./photo/ykr.png" alt="Ювелирные украшения">
+                        <div class="category-overlay">
+                            <p class="categories_text">ювелирные<br>украшения</p>
+                        </div>
+                    </div>
+                    <div class="category-item">
+                        <img src="./photo/acecc.png" alt="Аксессуары">
+                        <div class="category-overlay">
+                            <p class="categories_text">аксессуары</p>
+                        </div>
+                    </div>
+                    <div class="category-item">
+                        <img src="./photo/home.png" alt="Для дома">
+                        <div class="category-overlay">
+                            <p class="categories_text">для дома</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="popular-products">
+                <div class="container">
+                    <div class="section-header">
+                        <p class="main_text">Популярные товары</p>
+                        <div class="carousel-navigation top-right">
+                            <button class="nav-arrow prev">&larr;</button>
+                            <button class="nav-arrow next">&rarr;</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-wrapper">
+                    <div class="carousel-container">
+                        <div class="products-carousel">
+                            <!-- Первая карточка - теперь кликабельна и ведет на страницу товара -->
+                            <a href="./product.html" class="product-link">
+                                <div class="product-item horizontal">
+                                    <img src="./photo/horse.png" alt="Старинная лошадка – каталка">
+                                    <div class="product-info">
+                                        <h3>старинная<br>лошадка –<br>каталка</h3>
+                                        <p>АРХАИЗМ</p>
+                                        <p class="price">7.000 ₽</p>
+                                        <button class="btn-add-to-cart">в корзину</button>
+                                    </div>
+                                </div>
+                            </a>
+                            <!-- Остальные карточки остаются без изменений -->
+                            <div class="product-item horizontal">
+                                <img src="./photo/doll.png" alt="Елочная игрушка куколка">
+                                <div class="product-info">
+                                    <h3>елочная<br>игрушка<br>куколка</h3>
+                                    <p>АРХАИЗМ</p>
+                                    <p class="price">2.000 ₽</p>
+                                    <button class="btn-add-to-cart">в корзину</button>
+                                </div>
+                            </div>
+                            <div class="product-item horizontal">
+                                <img src="./photo/plat.png" alt="блюдо ягоды">
+                                <div class="product-info">
+                                    <h3>блюдо <br>ягоды</h3>
+                                    <p>FLIK</p>
+                                    <p class="price">2.500 ₽</p>
+                                    <button class="btn-add-to-cart">в корзину</button>
+                                </div>
+                            </div>
+                            <!-- Дополнительные товары для карусели -->
+                            <div class="product-item horizontal">
+                                <img src="./photo/bezel.png" alt="Винтажная брошь">
+                                <div class="product-info">
+                                    <h3>Винтажная<br>брошь</h3>
+                                    <p>RETRO STYLE</p>
+                                    <p class="price">4.500 ₽</p>
+                                    <button class="btn-add-to-cart">в корзину</button>
+                                </div>
+                            </div>
+                            <div class="product-item horizontal">
+                                <img src="./photo/vor.png" alt="Старинный подсвечник">
+                                <div class="product-info">
+                                    <h3>Старинный<br>подсвечник</h3>
+                                    <p>VINTAGE HOME</p>
+                                    <p class="price">3.200 ₽</p>
+                                    <button class="btn-add-to-cart">в корзину</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="new-arrivals">
+                <div class="container">
+                    <div class="section-header">
+                        <p class="main_text">Новинки</p>
+                        <div class="carousel-navigation top-right">
+                            <button class="nav-arrow prev">&larr;</button>
+                            <button class="nav-arrow next">&rarr;</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-wrapper">
+                    <div class="carousel-container">
+                        <div class="products-carousel">
+                            <!-- Убираем дублирование лошадки из новинок -->
+                            <div class="product-item horizontal">
+                                <img src="./photo/bezel.png" alt="Винтажный Бизель Givenchy, новый">
+                                <div class="product-info">
+                                    <h3>Винтажный<br>Бизель Givenchy,<br>новый</h3>
+                                    <p>LA VALORY</p>
+                                    <p class="price">20.500 ₽</p>
+                                    <button class="btn-add-to-cart">в корзину</button>
+                                </div>
+                            </div>
+                            <div class="product-item horizontal">
+                                <img src="./photo/vor.png" alt="Винтажный воротничок">
+                                <div class="product-info">
+                                    <h3>Винтажный<br>воротничок</h3>
+                                    <p>MAIKO</p>
+                                    <p class="price">3.900 ₽</p>
+                                    <button class="btn-add-to-cart">в корзину</button>
+                                </div>
+                            </div>
+                            <div class="product-item horizontal">
+                                <img src="./photo/ring.png" alt="Кольцо из монеты. Ирландия">
+                                <div class="product-info">
+                                    <h3>Кольцо из монеты.<br>Ирландия</h3>
+                                    <p>FLIK</p>
+                                    <p class="price">2.500 ₽</p>
+                                    <button class="btn-add-to-cart">в корзину</button>
+                                </div>
+                            </div>
+                            <div class="product-item horizontal">
+                                <img src="./photo/cloth.png" alt="Ретро платье">
+                                <div class="product-info">
+                                    <h3>Ретро платье<br>в цветочек</h3>
+                                    <p>VINTAGE FASHION</p>
+                                    <p class="price">5.600 ₽</p>
+                                    <button class="btn-add-to-cart">в корзину</button>
+                                </div>
+                            </div>
+                            <div class="product-item horizontal">
+                                <img src="./photo/home.png" alt="Старинная ваза">
+                                <div class="product-info">
+                                    <h3>Старинная<br>фарфоровая ваза</h3>
+                                    <p>ANTIQUE HOME</p>
+                                    <p class="price">8.200 ₽</p>
+                                    <button class="btn-add-to-cart">в корзину</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about-us">
+                <div class="container">
+                    <p class="main_text">О нас</p>
+                    <p class="about-us_text">
+                        Мы – молодой маркетплейс ретро-товаров. У нас вы сможете найти уникальные предметы, которые перенесут вас в атмосферу
+                        прошлых лет. Наша команда тщательно отбирает каждую вещь, чтобы дарить нашим клиентам не только качественный товар,
+                        но и частичку истории.
+                    </p>
+                    <p class="about-us_text">
+                        Откройте для себя мир ностальгии и вдохновения. Ваше путешествие в прошлое начинается здесь!
+                    </p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">о нас</a></li>
+                    <li><a href="#">обратная связь</a></li>
+                    <li><a href="#">контакты</a></li>
+                    <li><a href="#">политика конфиденциальности</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact-info">
+                <div class="email">
+                    <img src="photo/mail.svg" alt="Email icon">
+                    <a href="mailto:retromarket@mail.ru">retromarket@mail.ru</a>
+                </div>
+                <div class="phone">
+                    <img src="photo/call.svg" alt="Phone icon">
+                    <p>8-383-322-78-10</p>
+                </div>
+            </div>
+            <div class="footer-social">
+                <div class="social-icons">
+                    <a href="#" class="social-vk"></a>
+                    <a href="#" class="social-fb"></a>
+                    <a href="#" class="social-telegram"></a>
+                </div>
+                 <p>&copy; Ретро.маркет 2025. Все права защищены</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
